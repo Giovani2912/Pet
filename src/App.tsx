@@ -5,11 +5,8 @@ import Register from './screens/Register/index';
 import Login from './screens/Login';
 import About from './screens/About';
 import Main from './screens/Main';
-import ProductRegister from './screens/ProductRegister';
-import ProductList from './screens/ProductList';
-import InsumosRegister from './screens/InsumosRegister';
-import VehiclesRegister from './screens/VehiclesRegister';
-import WaterControl from './screens/WaterControl';
+import InsumosRegister from './screens/ListDogs';
+import VehiclesRegister from './screens/DogsRegister';
 
 
 
@@ -26,11 +23,8 @@ function App() {
           <Route path="/register" component={Register} />
           <Route path="/main" component={Main} />
           <Route path="/about" component={About} />
-          <Route path="/register-product" component={ProductRegister} />
-          <Route path="/register-insumos" component={InsumosRegister} />
-          <Route path="/register-vehicles" component={VehiclesRegister} />
-          <Route path="/water-control" component={WaterControl} />
-          <Route path="/list-product" component={ProductList} />
+          <Route path="/list-dogs" component={InsumosRegister} />
+          <Route path="/register-dogs" component={VehiclesRegister} />
         </Switch>
       </BrowserRouter>
       <GlobalStyles />

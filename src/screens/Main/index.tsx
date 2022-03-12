@@ -16,7 +16,7 @@ import {
     Img,
     Welcome
 } from './styles';
-import manInFarm from '../../assets/farm-main.svg'
+import dog from '../../assets/dog.svg'
 
 function Main() {
     return(
@@ -29,33 +29,33 @@ function Main() {
             </Header>
             <Content>
                 <SideBar>
-                    <LinkContent>
+                    {/* <LinkContent>
                         <MyLinkContent to="/register-product">
                             <NoteIcon />
                             Cadastrar produtos
                         </MyLinkContent>
-                    </LinkContent>
+                    </LinkContent> */}
 
                     <LinkContent>
-                        <MyLinkContent to="/register-insumos">
+                        <MyLinkContent to="/list-dogs">
                             <TreeIcon />
-                            Cadastrar insumos 
+                            Lista de Cachorros 
                         </MyLinkContent>
                     </LinkContent>
 
                     <LinkContent>
-                        <MyLinkContent to="/register-vehicles">
+                        <MyLinkContent to="/register-dogs">
                             <TractorIcon />
-                            Cadastrar veículos
+                            Cadastrar Cachorro
                         </MyLinkContent>
                     </LinkContent>
 
-                    <LinkContent>
+                    {/* <LinkContent>
                         <MyLinkContent to="/water-control">
                             <WaterIcon />
                             Controle de água
                         </MyLinkContent>
-                    </LinkContent>
+                    </LinkContent> */}
                 </SideBar>
 
                 <Welcome>
@@ -65,7 +65,7 @@ function Main() {
                     
 
                 <Img>
-                    <img src={manInFarm} title='' />
+                    <img src={dog} title='' />
                 </Img>
             </Content>
             

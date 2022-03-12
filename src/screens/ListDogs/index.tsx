@@ -4,22 +4,29 @@ import {
     Header,
     LinkArrow,
     BackHomeTitle,
-    BackLeft
+    BackLeft,
+    Content,
+    Left,
+    Right
 } from './styles';
 
 
-function WaterControl() {
+function InsumosRegister() {
     return(
         <Container>
-            <Header>
+           <Header>
                 <LinkArrow to='/main'>
                     <BackLeft /> 
                     <BackHomeTitle>Voltar</BackHomeTitle>
                 </LinkArrow>                
             </Header>
-            <h1>Water controll Screen</h1>
+
+            <Content>
+                <Left></Left>
+                <Right></Right>
+            </Content>
         </Container>
     );
 }
 
-export default WaterControl;
+export default InsumosRegister;

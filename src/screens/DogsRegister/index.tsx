@@ -11,7 +11,7 @@ import {
 } from './styles';
 
 
-function ProductRegister() {
+function VehiclesRegister() {
     return(
         <Container>
             <Header>
@@ -20,37 +20,35 @@ function ProductRegister() {
                     <BackHomeTitle>Voltar</BackHomeTitle>
                 </LinkArrow>                
             </Header>
-
             <Form>
                 <form>
-                    <Label>Cadastre seu produto: </Label>
+                    <Label>Cadastre seu Cachorro: </Label>
                     <div className="form-group">
                         <input 
                             type="text" 
                             className="form-control" 
-                            placeholder="Nome do produto"
-                        />
-                    </div>
-
-                    <div className="form-group">
-                        <input 
-                            type="text" 
-                            className="form-control" 
-                            placeholder="Custo para produção do KG"
+                            placeholder="Raça do cachorro"
                         />
                     </div>
                     <div className="form-group">
                         <input 
                             type="text" 
                             className="form-control" 
-                            placeholder="Preço de venda"
+                            placeholder="Cor do cachorro"
                         />
                     </div>
                     <div className="form-group">
                         <input 
                             type="text" 
                             className="form-control" 
-                            placeholder="Quantidade de KGS produzido no mês"
+                            placeholder="Idade"
+                        />
+                    </div>
+                    <div className="form-group">
+                        <input 
+                            type="text" 
+                            className="form-control" 
+                            placeholder="Descriçao"
                         />
                     </div>
                     <div className="form-group">
@@ -65,7 +63,7 @@ function ProductRegister() {
                                 type="submit" 
                                 className="btn btn-primary"
                             >
-                                Cadastrar Produto
+                                Cadastrar Cachorro
                             </button>
                         </Footer>
                     </form>
@@ -74,4 +72,4 @@ function ProductRegister() {
     );
 }
 
-export default ProductRegister;
+export default VehiclesRegister;

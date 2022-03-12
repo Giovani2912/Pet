@@ -38,21 +38,6 @@ export const LinkGroup = styled.div`
       }
 `;
 
-
-export const MyLink = styled(Link)`
-  font-family: Roboto 400;
-  font-size: 20px;
-  color: #000;
-  text-decoration: none;
-  background-color: #ffc900;
-  margin-left: 0px;
-  margin-right: 20px;
-  &:hover{
-        text-decoration: none;
-      }
-  
-`;
-
 export const LinkArrow = styled(Link)`
     display: flex;
     flex-direction: row;
@@ -88,6 +73,21 @@ export const BackLeft = styled(FiArrowLeft)`
   
 `;
 
+
+export const MyLink = styled(Link)`
+  font-family: Roboto 400;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+  background-color: #ffc900;
+  margin-left: 0px;
+  margin-right: 20px;
+  &:hover{
+        text-decoration: none;
+      }
+  
+`;
+
 export const LoginIcon = styled(FiLogIn)`
     width: 25px;
     height: 25px;
@@ -109,3 +109,83 @@ export const AboutIcon = styled(FiPower)`
     justify-content: flex-start;
   
 `;
+
+export const Form = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0 0 0;
+    flex: 1;
+
+    > form, div, label{
+      background-color: #f9f9f9;
+    }
+
+    > form {
+      height: 50vh;
+      width: 40vw;
+      border-radius: 10px; 
+      padding: 50px;
+    }
+
+    > form >div {
+      
+    }
+
+    >form > div >label{
+      padding: 20px 10px;
+      width: 300px;
+      color: #000;
+      text-transform: uppercase;
+      text-align: center;
+      display: block;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    
+    >form > div #input-file{
+      cursor: pointer;
+    }
+
+`;
+
+export const Label = styled.h1`
+    font-family: Roboto 400;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #f9f9f9;
+
+`;
+
+
+export const Footer = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    > button{
+      background: #FFC900;
+      outline: none;
+      text-decoration: none;
+      color: #000;
+      border: none;
+      font-weight: bold;
+
+
+      &:hover{
+        background-color:#FF9E00;
+      }
+
+      &:active:focus{
+        background-color:#FF9E00 !important;
+        outline: none;
+      }
+    }
+`;
+
+
+export const Content = styled.div``;
+export const Left = styled.div``;
+export const Right = styled.div``;

@@ -1,8 +1,8 @@
 import styled, {css} from 'styled-components'
 import {Link} from 'react-router-dom';
-import {FiLogIn, FiPower} from "react-icons/fi";
+import {FiLogIn, FiPower, FiList} from "react-icons/fi";
 import {BiNotepad} from "react-icons/bi";
-import {FaTractor, FaTree} from 'react-icons/fa'
+import {FaDog, FaTree} from 'react-icons/fa'
 import {IoWaterOutline} from 'react-icons/io5'
 
 export const Container = styled.div`
@@ -152,17 +152,17 @@ export const NoteIcon = styled(BiNotepad)`
     ${iconCSS}
 `;
 
-export const TreeIcon = styled(FaTree)`
+export const TreeIcon = styled(FiList)`
     ${iconCSS}
 `;
 
 
-export const TractorIcon = styled(FaTractor)`
+export const TractorIcon = styled(FaDog)`
     ${iconCSS}
 `;
 
 
-export const WaterIcon = styled(IoWaterOutline)`
+export const WaterIcon = styled(FiList)`
     ${iconCSS}
 `;
 
